@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/YOUR_USERNAME/my-cluster-bootstrap.git' # CHANGE THIS
+    repoURL: 'https://github.com/jm23-23/my-cluster-bootstrap.git' # CHANGE THIS
     targetRevision: HEAD
     path: apps
   destination:
