@@ -14,7 +14,7 @@ spec:
         args:
           - --kubelet-insecure-tls  # Ensures it works smoothly on local/test clusters
   destination:
-    server: https://kubernetes.cloud.svc
+    server: https://kubernetes.default.svc
     namespace: kube-system
   syncPolicy:
     automated:

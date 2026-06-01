@@ -19,7 +19,7 @@ spec:
             size: 10Gi
           retention: 7d
   destination:
-    server: https://kubernetes.cloud.svc
+    server: https://kubernetes.default.svc
     namespace: monitoring
   syncPolicy:
     automated:
