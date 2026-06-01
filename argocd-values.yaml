@@ -22,3 +22,7 @@ spec:
     syncOptions:
     - ServerSideApply=true
     - CreateNamespace=true
+configs:
+  secret:
+    # Paste your generated Bcrypt hash inside the quotes below
+    argocdServerAdminPassword: "$2b$10$77uUMjMTzKReQ445eWrk5efFaug/U2i4N9wKDJ7G5UjPxeXkBeY7i"
